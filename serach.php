@@ -6,8 +6,7 @@
  * Time: 20:30
  */
 
-$pdo = new PDO('mysql:host=localhost; dbname=web-scrapping; charset=utf8', 'root', 'mysql');
-$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+require "connection.php";
 
 libxml_use_internal_errors(true);
 $count = 0;
@@ -70,3 +69,4 @@ while($count < 5){
     }
     $count++;
 }
+header('Location: index.php');
