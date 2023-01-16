@@ -16,7 +16,7 @@ $data = $stmt->fetchAll(\PDO::FETCH_ASSOC);
 
 <html>
 <head>
-    <title>DESAFIO: forseti-code-challenge - Nicolai Furtado</title>
+    <title>Php Web Scrapper - Site do Governo Federal Brasil</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
@@ -26,7 +26,7 @@ $data = $stmt->fetchAll(\PDO::FETCH_ASSOC);
 <div class="container-fluid">
 
     <div class="text-center">
-        <h1>DESAFIO: forseti-code-challenge</h1>
+        <h1>Php Web Scrapper - Site do Governo Federal Brasil</h1>
         <hr>
     </div>
 
@@ -41,7 +41,7 @@ $data = $stmt->fetchAll(\PDO::FETCH_ASSOC);
     <?php } else { ?>
 
         <div class="alert alert-warning alert-dismissible fade show" role="alert">
-            <strong>Dados encontrados!</strong> Logo abaixo na tabela, está sendo apresentado as notícias das primeiras 5 páginas do link <a href="https://www.gov.br/compras/pt-br/acesso-a-informacao/noticias" target="_blank">https://www.gov.br/compras/pt-br/acesso-a-informacao/noticias</a>
+            <strong>Dados encontrados!</strong> Logo abaixo na tabela, está sendo apresentado as notícias das primeiras 10 páginas do link <a href="https://www.gov.br/compras/pt-br/acesso-a-informacao/noticias" target="_blank">https://www.gov.br/compras/pt-br/acesso-a-informacao/noticias</a>
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
 

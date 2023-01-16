@@ -42,8 +42,10 @@ while($count < 5){
         $time = explode("h", $time);
 
         $dateTime = mktime((int)$time[0], (int)$time[1], 0, (int)$date[1], (int)$date[0], (int)$date[2]);
+        $newDate = (int)$date[1].(int)$date[0].(int)$date[2];
+        $newTime = (int)$time[0].(int)$time[1];
         $title = $aTag[0]->textContent;
-        $hash = sha1($title.$url.$date.$time);
+        $hash = sha1($title.$url.$newDate.$newTime);
 
         $sql = "SELECT id FROM news WHERE hash='{$hash}'";
         $stmt = $pdo->prepare($sql);

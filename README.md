@@ -20,7 +20,7 @@ PhP 7.1 + and MySql
 1. Start your server on local machine.
 2. Import the 'web-scraping.sql' dump into your MySql Database.
 3. Download the files to your folder where your server is redirected.
-4. Edit the search.php file on line 9 and change host, database, user and password as per your requirement Database.
+4. Edit the connection.php file on line 9 and change host, database, user and password as per your requirement Database.
 ```
 
 ## ⚙ Running the tests
