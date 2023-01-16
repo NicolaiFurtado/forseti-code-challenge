@@ -1,33 +1,32 @@
 # PHP WEB SCRAPPER
 
-Criação de um Web crawler para busca de informações no portal do ComprasNet do Governo Federal.
+Creation of a Web crawler to search for information on the Federal Government's ComprasNet portal.
 
-## 🚀 Começando
+## 🚀 Starting
 
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+These instructions will allow you to get a working copy of the project on your local machine for development and testing purposes.
 
-Consulte **Instalação** para saber como implantar o projeto.
+See **Installation** to learn how to deploy the project.
 
-### 📋 Pré-requisitos
-
-```
-PhP 7.1 e MySql
-```
-
-### 🔧 Instalação
+### 📋 What you need
 
 ```
-1. Iniciar o seu servidor em máquina local.
-2. Importar o dump 'web-scrapping.sql' para o seu Banco de Dados MySql.
-3. Baixar os arquivos para a sua pasta na qual o seu servidor está redirecionado.
-4. Editar o arquivo search.php na linha 9 e alterar host, database, usuário e senha conforme seu
-Banco de Dados. 
+PhP 7.1 + and MySql
 ```
 
-## ⚙ Executando os testes
+### 🔧 Instalation
 
-Ao ter realizado a instalação, ao abrir o projeto no servidor, ele mostrará um Front-End básico para a apresentação dos dados, e para a apresentação dos dados, é necessário iniciar o web-scraper, clicando em Buscar. Após clicando em buscar, ele irá apresentar os dados.
+```
+1. Start your server on local machine.
+2. Import the 'web-scraping.sql' dump into your MySql Database.
+3. Download the files to your folder where your server is redirected.
+4. Edit the search.php file on line 9 and change host, database, user and password as per your requirement Database.
+```
 
-## 🛠 Construído com
+## ⚙ Running the tests
 
-* Linguagem PhP
+Once the installation is complete, when opening the project on the server, it will show a basic Front-End for the presentation of the data, and for the presentation of the data, it is necessary to start the web-scraper, clicking on Search. After clicking on fetch, it will display the data.
+
+## 🛠 Built with
+
+* Php
